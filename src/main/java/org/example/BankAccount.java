@@ -34,6 +34,9 @@ public class BankAccount {
     public int getAccountNumber() {
         return accountNumber;
     }
+    public double getBalance() {
+        return balance;
+    }
 
     // Method to deposit money
     public void deposit(double amount) {
